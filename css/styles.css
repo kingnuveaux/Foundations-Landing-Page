@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2934;
+    margin: 0px;
+}
+
+.container1 {
+    background-color: #1f2934;
+}
+
+.container2 {
+}
+
+.container3 {
+    
+    background-color: #e5e7eb;
+}
+
+.container4 {
+
+}
+
+.footer {
+    background-color: #1f2934;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.titletext {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
