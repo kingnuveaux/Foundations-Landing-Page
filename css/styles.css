@@ -1,13 +1,15 @@
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
+    margin: 0px;
 }
 
 .header {
     background-color: #1f2934;
     margin: 0px;
+    padding: 0px 16%;
     display: flex;
     justify-content: space-between;
 }
@@ -15,13 +17,18 @@ body {
 .container1 {
     background-color: #1f2934;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
+    padding: 5% 16%;
+    gap: 50px;
 }
 
 .container2 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
 }
 
 .container3 {   
@@ -30,7 +37,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding: 50px;
+    padding: 10% 16%;
+}
+
+.column1 {
+    align-self: center;
 }
 
 .container4 {
@@ -48,16 +59,20 @@ body {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    align-self: center;
 }
 
 ul {
-    color: #e5e7eb;
     list-style-type: none;
     display: flex;
+    gap: 25px;
 }
 
-li {
-    list-style: none;
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .titletext {
@@ -74,16 +89,68 @@ li {
 .sign-up-button {
     background-color: #3882f6;
     color: #f9faf8;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 50px;
+    border-style: none;
+}
+
+.sign-up-button2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 50px;
+    border-style: solid #fff;
+    border-width: 5px;
 }
 
 .main-image {
-    width: 30%;
+    width: 600px;
 }
 
 .random-info {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    text-align: center;
+    padding: 50px;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 16%;
+    padding-right: 16%;
+    gap: 50px;
+}
+
+.box1, .box2, .box3, .box4 {
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 25px;
+    background-color: #3882f6;
+    border-color: red;
+}
+
+.boxtext-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 16%;
+    padding-right: 16%;
+    gap: 50px;
+}
+
+.boxtext1, .boxtext2, .boxtext3, .boxtext4 {
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    color: #1f2937;
+    text-align: center;
+    font-size: 18px;
 }
 
 .quote {
@@ -91,23 +158,41 @@ li {
     font-style: italic;
     font-weight: 300;
     color: #1f2937;
+    padding: 0px 175px;
 }
 
 .attribution {
+    font-size: 24px;
     text-align: right;
     color: #1f2937;
     font-weight: 800;
-    padding-right: 50px;
+    padding-right: 200px;
 }
 
 .box {
     display: flex;
+    background-color: #3882f6;
+    border-radius: 25px;
+    padding: 50px 100px;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 100px;
 }
 
 .box-column1 {
+    align-self: center;
+}
 
+.call {
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.byline {
+    color: #e5e7eb;
 }
 
 .box-column2 {
-
+    align-self: center;
 }
