@@ -1,36 +1,63 @@
 body {
+    font-family: Roboto;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .header {
     background-color: #1f2934;
     margin: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container1 {
     background-color: #1f2934;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .container2 {
+    display: flex;
+    justify-content: center;
 }
 
-.container3 {
-    
+.container3 {   
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
 }
 
 .container4 {
-
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .footer {
     background-color: #1f2934;
+    color: #f9faf8;
+    text-align: center;
 }
 
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+ul {
+    color: #e5e7eb;
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    list-style: none;
 }
 
 .titletext {
@@ -47,4 +74,40 @@ body {
 .sign-up-button {
     background-color: #3882f6;
     color: #f9faf8;
+}
+
+.main-image {
+    width: 30%;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.attribution {
+    text-align: right;
+    color: #1f2937;
+    font-weight: 800;
+    padding-right: 50px;
+}
+
+.box {
+    display: flex;
+}
+
+.box-column1 {
+
+}
+
+.box-column2 {
+
 }
