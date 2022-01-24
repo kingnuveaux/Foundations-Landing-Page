@@ -133,8 +133,10 @@ a {
     margin: 0px;
     padding: 0px;
     border-radius: 25px;
-    background-color: #3882f6;
-    border-color: red;
+    background-color: white;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 5px;
 }
 
 .boxtext-container {
